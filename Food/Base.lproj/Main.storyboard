@@ -45,26 +45,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-14.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="h1q-Ny-6Db">
-                                                    <rect key="frame" x="0.0" y="0.0" width="182" height="140"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="182" height="155"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food_Context" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqs-IN-abr">
-                                                    <rect key="frame" x="11" y="150" width="161" height="45"/>
+                                                    <rect key="frame" x="9" y="159" width="161" height="45"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-10.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="1U6-qb-wGU">
-                                                    <rect key="frame" x="11" y="204" width="35" height="35"/>
+                                                    <rect key="frame" x="11" y="209" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ff5-Q1-4z5">
-                                                    <rect key="frame" x="59" y="209" width="80" height="13"/>
+                                                    <rect key="frame" x="59" y="210" width="80" height="13"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -91,9 +91,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1575" y="-761"/>
+            <point key="canvasLocation" x="-1575.2" y="-761.46926536731644"/>
         </scene>
-        <!--通知-->
+        <!--メッセージ-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Food" customModuleProvider="target" sceneMemberID="viewController">
@@ -105,7 +105,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="通知" id="y9x-sH-K6f"/>
+                                    <navigationItem title="メッセージ" id="y9x-sH-K6f"/>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tXM-7k-gG3">
@@ -123,8 +123,8 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1J-j3-gmS">
                                                     <rect key="frame" x="55" y="12" width="250" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ããå¤ã-50.png" translatesAutoresizingMaskIntoConstraints="NO" id="oIE-zx-NlO">
@@ -152,7 +152,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="通知" image="bell-7.png" selectedImage="bell-7.png" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="メッセージ" image="message-7.png" selectedImage="message-7.png" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,6 +170,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="TOr-Yp-T7F" kind="relationship" relationship="viewControllers" id="JeR-jb-BVl"/>
+                        <segue destination="Nay-u1-XFT" kind="relationship" relationship="viewControllers" id="Fy5-DT-wXj"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -177,6 +178,46 @@
             <point key="canvasLocation" x="-313" y="71"/>
         </scene>
         <!--マイページ-->
+        <scene sceneID="tXK-1f-j7t">
+            <objects>
+                <viewController id="Nay-u1-XFT" customClass="MyPageViewController" customModule="Food" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rgg-Tf-ogs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X1j-Mh-f1o">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="マイページ" id="fQJ-sn-UXz"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ããå¤ã-50.png" translatesAutoresizingMaskIntoConstraints="NO" id="ube-6R-SpY">
+                                <rect key="frame" x="337" y="26" width="34" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="e.png" translatesAutoresizingMaskIntoConstraints="NO" id="UCq-cG-Cfj">
+                                <rect key="frame" x="0.0" y="64" width="375" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-10.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="e2f-uu-vrx">
+                                <rect key="frame" x="22" y="211" width="79" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="1cq-1j-GMs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="マイページ" image="circle-user-7.png" selectedImage="circle-user-7.png" id="maa-17-Uvj"/>
+                    <connections>
+                        <outlet property="ProfilePhoto3" destination="e2f-uu-vrx" id="oBo-2b-1we"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QmI-8O-RRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="989.60000000000002" y="160.56971514242881"/>
+        </scene>
+        <!--通知-->
         <scene sceneID="zKz-Af-7YF">
             <objects>
                 <viewController id="TOr-Yp-T7F" sceneMemberID="viewController">
@@ -188,14 +229,14 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="マイページ" id="kua-sf-U6g"/>
+                                    <navigationItem title="通知" id="kua-sf-U6g"/>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="aIb-aU-i4l"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="マイページ" image="circle-user-7.png" selectedImage="circle-user-7.png" id="dHM-ar-Cmx"/>
+                    <tabBarItem key="tabBarItem" title="通知" image="bell-7.png" selectedImage="bell-7.png" id="dHM-ar-Cmx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAh-gS-7Pn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -203,12 +244,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bell-7.png" width="30" height="30"/>
+        <image name="bell-7.png" width="16" height="16"/>
         <image name="circle-user-7.png" width="30" height="30"/>
+        <image name="e.png" width="16" height="16"/>
         <image name="home-7.png" width="30" height="30"/>
         <image name="icons8-ããå¤ã-50.png" width="50" height="50"/>
         <image name="images-10.jpeg" width="275" height="183"/>
         <image name="images-14.jpeg" width="259" height="194"/>
+        <image name="message-7.png" width="16" height="16"/>
         <image name="search-7.png" width="30" height="30"/>
     </resources>
 </document>

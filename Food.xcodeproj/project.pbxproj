@@ -39,6 +39,10 @@
 		98C169921F8517F000B6A628 /* images-22.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C1698A1F8517F000B6A628 /* images-22.jpeg */; };
 		98C169951F85CC5500B6A628 /* NotificationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C169941F85CC5500B6A628 /* NotificationViewCell.swift */; };
 		98C169971F85D29900B6A628 /* icons8-ããå¤ã-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C169961F85D29900B6A628 /* icons8-ããå¤ã-50.png */; };
+		98C169991F85F28900B6A628 /* message-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C169981F85F28900B6A628 /* message-7.png */; };
+		98C1699B1F85F7B800B6A628 /* dsf.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C1699A1F85F7B800B6A628 /* dsf.png */; };
+		98C1699E1F85F9AD00B6A628 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1699D1F85F9AD00B6A628 /* MyPageViewController.swift */; };
+		98C169A21F873D4E00B6A628 /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C169A11F873D4E00B6A628 /* e.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +80,10 @@
 		98C1698A1F8517F000B6A628 /* images-22.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-22.jpeg"; path = "../../../../../Downloads/images-22.jpeg"; sourceTree = "<group>"; };
 		98C169941F85CC5500B6A628 /* NotificationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewCell.swift; sourceTree = "<group>"; };
 		98C169961F85D29900B6A628 /* icons8-ããå¤ã-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-ããå¤ã-50.png"; path = "../../../../../Downloads/icons8-ããå¤ã-50.png"; sourceTree = "<group>"; };
+		98C169981F85F28900B6A628 /* message-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "message-7.png"; path = "../../../../icon/iconbeast-lite-200/iconbeast lite 200 - png/message-7.png"; sourceTree = "<group>"; };
+		98C1699A1F85F7B800B6A628 /* dsf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dsf.png; path = ../../../../Xcode/SimpleBrowser/SimpleBrowser/Resources/dsf.png; sourceTree = "<group>"; };
+		98C1699D1F85F9AD00B6A628 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		98C169A11F873D4E00B6A628 /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e.png; path = ../../../../../Downloads/e.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,7 @@
 				989390D21F84C812006CD63F /* Main.storyboard */,
 				98C1697C1F84DFE400B6A628 /* Home */,
 				98C169931F85CC1E00B6A628 /* 通知 */,
+				98C1699C1F85F97A00B6A628 /* マイページ */,
 				98C1695F1F84D4F000B6A628 /* resources */,
 				989390D51F84C812006CD63F /* Assets.xcassets */,
 				989390CC1F84C812006CD63F /* AppDelegate.swift */,
@@ -123,6 +132,9 @@
 		98C1695F1F84D4F000B6A628 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				98C169A11F873D4E00B6A628 /* e.png */,
+				98C1699A1F85F7B800B6A628 /* dsf.png */,
+				98C169981F85F28900B6A628 /* message-7.png */,
 				98C169961F85D29900B6A628 /* icons8-ããå¤ã-50.png */,
 				98C169851F8517F000B6A628 /* images-15.jpeg */,
 				98C169891F8517F000B6A628 /* images-16.jpeg */,
@@ -167,6 +179,15 @@
 				98C169941F85CC5500B6A628 /* NotificationViewCell.swift */,
 			);
 			path = "通知";
+			sourceTree = "<group>";
+		};
+		98C1699C1F85F97A00B6A628 /* マイページ */ = {
+			isa = PBXGroup;
+			children = (
+				98C1699D1F85F9AD00B6A628 /* MyPageViewController.swift */,
+			);
+			name = "マイページ";
+			path = "マイページ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +252,10 @@
 				98C169901F8517F000B6A628 /* images-21.jpeg in Resources */,
 				98C169631F84D55300B6A628 /* bell-7.png in Resources */,
 				989390D91F84C812006CD63F /* LaunchScreen.storyboard in Resources */,
+				98C1699B1F85F7B800B6A628 /* dsf.png in Resources */,
 				98C1698E1F8517F000B6A628 /* images-18.jpeg in Resources */,
 				98C169731F84DE0A00B6A628 /* images.jpeg in Resources */,
+				98C169991F85F28900B6A628 /* message-7.png in Resources */,
 				98C169771F84DE0A00B6A628 /* images-6.jpeg in Resources */,
 				98C1698D1F8517F000B6A628 /* images-15.jpeg in Resources */,
 				98C169791F84DE0A00B6A628 /* 5527-01.jpg in Resources */,
@@ -241,6 +264,7 @@
 				98C169761F84DE0A00B6A628 /* images-8.jpeg in Resources */,
 				98C1698B1F8517F000B6A628 /* images-17.jpeg in Resources */,
 				98C169751F84DE0A00B6A628 /* images-7.jpeg in Resources */,
+				98C169A21F873D4E00B6A628 /* e.png in Resources */,
 				98C1697A1F84DE0A00B6A628 /* images-12.jpeg in Resources */,
 				98C1698C1F8517F000B6A628 /* images-19.jpeg in Resources */,
 				98C169781F84DE0A00B6A628 /* images-9.jpeg in Resources */,
@@ -266,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C169951F85CC5500B6A628 /* NotificationViewCell.swift in Sources */,
+				98C1699E1F85F9AD00B6A628 /* MyPageViewController.swift in Sources */,
 				98C169821F84E7E000B6A628 /* FoodViewCell.swift in Sources */,
 				989390D11F84C812006CD63F /* SecondViewController.swift in Sources */,
 				989390CD1F84C812006CD63F /* AppDelegate.swift in Sources */,
@@ -407,9 +432,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F37WK7V25;
 				INFOPLIST_FILE = Food/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Food;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Food.mypage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -421,9 +448,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F37WK7V25;
 				INFOPLIST_FILE = Food/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Food;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Food.mypage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

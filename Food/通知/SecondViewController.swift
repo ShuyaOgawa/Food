@@ -10,9 +10,9 @@ import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-     let ProfileName = ["小林憲司", "山田花子", "山本太郎", "鈴木公平", "大久保一伸", "中村翔太", "大黒俊", "新妻エイジ"]
+     let ProfileName = ["小林憲司", "山田花子", "山本太郎", "Food", "大久保一伸", "中村翔太", "大黒俊", "新妻エイジ"]
     
-    let ProfilePhoto = ["images-6.jpeg", "images-7.jpeg", "images-8.jpeg", "images-9.jpeg", "images-10.jpeg", "images-11.jpeg", "images-12.jpeg", "images-13.jpeg", ]
+    let ProfilePhoto = ["images-6.jpeg", "images-7.jpeg", "images-8.jpeg", "dsf.png", "images-10.jpeg", "images-11.jpeg", "images-12.jpeg", "images-13.jpeg", ]
     
     
     
@@ -39,7 +39,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         let cell: NotificationViewCell = tableView.dequeueReusableCell(withIdentifier: "NotificationViewCell") as! NotificationViewCell
         
-        cell.NotificationTitle.text = "予約した\(ProfileName[indexPath.row])さんから連絡があります。"
+        cell.NotificationTitle.text = "\(ProfileName[indexPath.row])さんから新規メッセージがあります。"
         
         cell.ProfilePhoto2.image = UIImage(named: ProfilePhoto[indexPath.row])
         cell.ProfilePhoto2.layer.borderColor = UIColor.black.cgColor

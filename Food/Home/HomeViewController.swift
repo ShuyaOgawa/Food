@@ -10,18 +10,26 @@ import UIKit
 
 class HomeViewController: UIViewController, UICollectionViewDataSource,UICollectionViewDelegate {
     
-//    ダミーデータ
+    
+   
+    
+    
+    
+    //    ダミーデータ
     let ProfilePhoto = ["images-6.jpeg", "images-7.jpeg", "images-8.jpeg", "images-9.jpeg", "images-10.jpeg", "images-11.jpeg", "images-12.jpeg", "images-13.jpeg", ]
     
     let FoodPhoto = ["images-15.jpeg", "images-16.jpeg", "images-17.jpeg", "images-18.jpeg", "images-19.jpeg", "images-20.jpeg", "images-21.jpeg", "images-22.jpeg", ]
     
     let ProfileName = ["小林憲司", "山田花子", "山本太郎", "鈴木公平", "大久保一伸", "中村翔太", "大黒俊", "新妻エイジ"]
     
-    let FoodContext = ["一般的な日本食を食べませんか？", "茶碗蒸しご馳走します！", "肉じゃがでよければ食べにきませんか","煮物得意です",  "お美味しいトンカツ食べるところ知ってます", "鉄板焼きそば振舞います", "豚の角煮はいかがですか", "魚介すきな方連絡ください！"]
+    let FoodContext = ["一般的な日本食を食べませんか？", "茶碗蒸しご馳走します！", "肉じゃがでよければ食べにきませんか","煮物得意です",  "お美味しいトンカツ食べるところ知ってます", "鉄板焼きそば振舞います", "豚の角煮はいかがですか", "魚介好きな方連絡ください！"]
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
