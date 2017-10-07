@@ -11,19 +11,21 @@ import UIKit
 class MyPageViewController: UIViewController {
     
     
+ 
     
-    @IBOutlet weak var ProfilePhoto3: UIImageView!
+    @IBOutlet weak var ProfilePhoto4: UIImageView!
     
-    let ProfilePhoto = ["images-10.jpeg"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ProfilePhoto3.image = UIImage(named: "\(ProfilePhoto[0])")
-        ProfilePhoto3.layer.borderColor = UIColor.white.cgColor
-        ProfilePhoto3.layer.borderWidth = 3
-        ProfilePhoto3.layer.cornerRadius = ProfilePhoto3.frame.size.width  / 2
-        ProfilePhoto3.layer.masksToBounds = true
+        ProfilePhoto4.image = UIImage(named: "images-10.jpeg")
+        ProfilePhoto4.layer.borderColor = UIColor.white.cgColor
+        ProfilePhoto4.layer.borderWidth = 3
+        ProfilePhoto4.layer.cornerRadius = ProfilePhoto4.frame.size.width / 2
+        ProfilePhoto4.layer.masksToBounds = true
+        
+     
         
         // Do any additional setup after loading the view.
     }

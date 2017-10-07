@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9887CE6B1F8899A1003C8EE4 /* icons8-è¨­å®-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9887CE6A1F8899A1003C8EE4 /* icons8-è¨­å®-50.png */; };
 		989390CD1F84C812006CD63F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989390CC1F84C812006CD63F /* AppDelegate.swift */; };
 		989390CF1F84C812006CD63F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989390CE1F84C812006CD63F /* HomeViewController.swift */; };
 		989390D11F84C812006CD63F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989390D01F84C812006CD63F /* SecondViewController.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9887CE6A1F8899A1003C8EE4 /* icons8-è¨­å®-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-è¨­å®-50.png"; path = "../../../../../Downloads/icons8-è¨­å®-50.png"; sourceTree = "<group>"; };
 		989390C91F84C812006CD63F /* Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		989390CC1F84C812006CD63F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		989390CE1F84C812006CD63F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		98C1695F1F84D4F000B6A628 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				9887CE6A1F8899A1003C8EE4 /* icons8-è¨­å®-50.png */,
 				98C169A11F873D4E00B6A628 /* e.png */,
 				98C1699A1F85F7B800B6A628 /* dsf.png */,
 				98C169981F85F28900B6A628 /* message-7.png */,
@@ -255,6 +258,7 @@
 				98C1699B1F85F7B800B6A628 /* dsf.png in Resources */,
 				98C1698E1F8517F000B6A628 /* images-18.jpeg in Resources */,
 				98C169731F84DE0A00B6A628 /* images.jpeg in Resources */,
+				9887CE6B1F8899A1003C8EE4 /* icons8-è¨­å®-50.png in Resources */,
 				98C169991F85F28900B6A628 /* message-7.png in Resources */,
 				98C169771F84DE0A00B6A628 /* images-6.jpeg in Resources */,
 				98C1698D1F8517F000B6A628 /* images-15.jpeg in Resources */,
