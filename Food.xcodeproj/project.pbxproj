@@ -44,6 +44,9 @@
 		98C1699B1F85F7B800B6A628 /* dsf.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C1699A1F85F7B800B6A628 /* dsf.png */; };
 		98C1699E1F85F9AD00B6A628 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1699D1F85F9AD00B6A628 /* MyPageViewController.swift */; };
 		98C169A21F873D4E00B6A628 /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C169A11F873D4E00B6A628 /* e.png */; };
+		98EA59061F88C4360050F32B /* icons8-ãã¼ã«ã¼-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EA59051F88C4360050F32B /* icons8-ãã¼ã«ã¼-50.png */; };
+		98EA59081F88C5D00050F32B /* k_1345_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98EA59071F88C5D00050F32B /* k_1345_01.jpg */; };
+		98EA590A1F88C80A0050F32B /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EA59091F88C80A0050F32B /* DelegateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +89,9 @@
 		98C1699A1F85F7B800B6A628 /* dsf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dsf.png; path = ../../../../Xcode/SimpleBrowser/SimpleBrowser/Resources/dsf.png; sourceTree = "<group>"; };
 		98C1699D1F85F9AD00B6A628 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		98C169A11F873D4E00B6A628 /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e.png; path = ../../../../../Downloads/e.png; sourceTree = "<group>"; };
+		98EA59051F88C4360050F32B /* icons8-ãã¼ã«ã¼-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-ãã¼ã«ã¼-50.png"; path = "../../../../../Downloads/icons8-ãã¼ã«ã¼-50.png"; sourceTree = "<group>"; };
+		98EA59071F88C5D00050F32B /* k_1345_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = k_1345_01.jpg; path = ../../../../../Downloads/k_1345_01.jpg; sourceTree = "<group>"; };
+		98EA59091F88C80A0050F32B /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				989390D21F84C812006CD63F /* Main.storyboard */,
+				98EA59021F88AFC20050F32B /* 詳細 */,
 				98C1697C1F84DFE400B6A628 /* Home */,
 				98C169931F85CC1E00B6A628 /* 通知 */,
 				98C1699C1F85F97A00B6A628 /* マイページ */,
@@ -134,6 +141,8 @@
 		98C1695F1F84D4F000B6A628 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				98EA59071F88C5D00050F32B /* k_1345_01.jpg */,
+				98EA59051F88C4360050F32B /* icons8-ãã¼ã«ã¼-50.png */,
 				9887CE6A1F8899A1003C8EE4 /* icons8-è¨­å®-50.png */,
 				98C169A11F873D4E00B6A628 /* e.png */,
 				98C1699A1F85F7B800B6A628 /* dsf.png */,
@@ -191,6 +200,14 @@
 			);
 			name = "マイページ";
 			path = "マイページ";
+			sourceTree = "<group>";
+		};
+		98EA59021F88AFC20050F32B /* 詳細 */ = {
+			isa = PBXGroup;
+			children = (
+				98EA59091F88C80A0050F32B /* DelegateViewController.swift */,
+			);
+			path = "詳細";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EA59061F88C4360050F32B /* icons8-ãã¼ã«ã¼-50.png in Resources */,
 				98C169901F8517F000B6A628 /* images-21.jpeg in Resources */,
 				98C169631F84D55300B6A628 /* bell-7.png in Resources */,
 				989390D91F84C812006CD63F /* LaunchScreen.storyboard in Resources */,
@@ -283,6 +301,7 @@
 				98C169651F84D55300B6A628 /* circle-user-7.png in Resources */,
 				989390D41F84C812006CD63F /* Main.storyboard in Resources */,
 				98C169721F84DE0A00B6A628 /* images-11.jpeg in Resources */,
+				98EA59081F88C5D00050F32B /* k_1345_01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +315,7 @@
 				98C169951F85CC5500B6A628 /* NotificationViewCell.swift in Sources */,
 				98C1699E1F85F9AD00B6A628 /* MyPageViewController.swift in Sources */,
 				98C169821F84E7E000B6A628 /* FoodViewCell.swift in Sources */,
+				98EA590A1F88C80A0050F32B /* DelegateViewController.swift in Sources */,
 				989390D11F84C812006CD63F /* SecondViewController.swift in Sources */,
 				989390CD1F84C812006CD63F /* AppDelegate.swift in Sources */,
 				989390CF1F84C812006CD63F /* HomeViewController.swift in Sources */,

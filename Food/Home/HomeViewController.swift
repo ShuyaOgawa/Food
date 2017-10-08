@@ -11,7 +11,7 @@ import UIKit
 class HomeViewController: UIViewController, UICollectionViewDataSource,UICollectionViewDelegate {
     
     
-   
+   @IBAction func backToTop(segue: UIStoryboardSegue) {}
     
     
     
@@ -71,6 +71,8 @@ class HomeViewController: UIViewController, UICollectionViewDataSource,UICollect
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
 
 }

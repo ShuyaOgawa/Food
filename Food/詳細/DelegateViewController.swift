@@ -1,47 +1,33 @@
 //
-//  MyPageViewController.swift
+//  DelegateViewController.swift
 //  Food
 //
-//  Created by 小川秀哉 on 2017/10/05.
+//  Created by 小川秀哉 on 2017/10/07.
 //  Copyright © 2017年 Digital Circus Inc. All rights reserved.
 //
 
 import UIKit
 
-class MyPageViewController: UIViewController {
-    
-    @IBAction func BackButton(_ sender: Any) {
-    }
-    
- 
-    
-    @IBOutlet weak var ProfilePhoto4: UIImageView!
-    
+class DelegateViewController: UIViewController {
+
+    @IBOutlet weak var ProfilePhoto5: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        ProfilePhoto4.image = UIImage(named: "images-10.jpeg")
-        ProfilePhoto4.layer.borderColor = UIColor.white.cgColor
-        ProfilePhoto4.layer.borderWidth = 3
-        ProfilePhoto4.layer.cornerRadius = ProfilePhoto4.frame.size.width / 2
-        ProfilePhoto4.layer.masksToBounds = true
-        
-     
-        
+        ProfilePhoto5.image = UIImage(named: "images-10.jpeg")
+        ProfilePhoto5.layer.borderColor = UIColor.black.cgColor
+        ProfilePhoto5.layer.borderWidth = 0.2
+        ProfilePhoto5.layer.cornerRadius = ProfilePhoto5.frame.size.width / 2
+        ProfilePhoto5.layer.masksToBounds = true
+
+
         // Do any additional setup after loading the view.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
-   
-
-   
-  
     
 
     /*
